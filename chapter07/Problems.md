@@ -6,3 +6,6 @@ Given a reference to the head of a singly linked list L, how would you determine
 
 ###Problem 7.3
 Write a function that takes a pointer to an arbitrary node in a sorted circular linked list, and returns the median of the linked list.
+
+###Problem 7.4
+Let h1 and h2 be the heads of lists L1 and L2, respectively. Assume that L1 and L2 are well-formed, that is each consists of a finite sequence of nodes. (In particular, neither list has a cucle.) How would you determine if there exists a node r reachable from both h1 and h2 by following the next fields? If such a node exists, find the node that appears earliest when traversing the lists. You are constrained to use no more than constant storage.
