@@ -10,7 +10,7 @@ Write a function that takes a pointer to an arbitrary node in a sorted circular 
 ###Problem 7.4
 Let h1 and h2 be the heads of lists L1 and L2, respectively. Assume that L1 and L2 are well-formed, that is each consists of a finite sequence of nodes. (In particular, neither list has a cucle.) How would you determine if there exists a node r reachable from both h1 and h2 by following the next fields? If such a node exists, find the node that appears earliest when traversing the lists. You are constrained to use no more than constant storage.
 
-###Problem 7.5     ---------TODO----------
+###Problem 7.5 ---------TODO----------
 
 ###Problem 7.6
 Write a function that takes a singly linked list L, and reorders the elements of L so that the new list represents even-odd(L). Your function should use O(1) additional storage. The only field you can change in a node is next.
@@ -26,3 +26,8 @@ Given a linear time non-recursive function that reverses a singly linked list. T
 
 ###Problem 7.10
 Write a function that determines whether a sequence represented by a singly linked list L is a palindrome. Assume L can be changed and does not have to be restored it to its original state.
+
+###Problem 7.11 ---------TODO----------
+
+###Problem 7.12
+Implement a function which takes as input a pointer to the head of a postings list L, and returns a copy of the postings list. Your function should take O(n) time, where n is the length of the postings list and should use O(1) storage beyond that required for the n nodes in the copy. You can modify the original list, but must restore it to its initial state before returning.
