@@ -17,3 +17,6 @@ Write a function that takes a singly linked list L, and reorders the elements of
 
 ###Problem 7.7
 Let v be a node in a singly linked list L. Node v is not the tail; delete it in O(1) time.
+
+###Problem 7.8
+Given a singly linked list L and a number k, write a function to remove the k-th last element fron L. Your algorithm cannot use more than a few words of storage, regardless of the length of the list. In particular, you cannot assume that it is possible to record the legnth of the list.
