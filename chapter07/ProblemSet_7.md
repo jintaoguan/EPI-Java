@@ -20,3 +20,6 @@ Let v be a node in a singly linked list L. Node v is not the tail; delete it in 
 
 ###Problem 7.8
 Given a singly linked list L and a number k, write a function to remove the k-th last element fron L. Your algorithm cannot use more than a few words of storage, regardless of the length of the list. In particular, you cannot assume that it is possible to record the legnth of the list.
+
+###Problem 7.9
+Given a linear time non-recursive function that reverses a singly linked list. The function should use no more than constant storage beyond that needed for the list itself.
