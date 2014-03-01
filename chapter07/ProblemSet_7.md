@@ -23,3 +23,6 @@ Given a singly linked list L and a number k, write a function to remove the k-th
 
 ###Problem 7.9
 Given a linear time non-recursive function that reverses a singly linked list. The function should use no more than constant storage beyond that needed for the list itself.
+
+###Problem 7.10
+Write a function that determines whether a sequence represented by a singly linked list L is a palindrome. Assume L can be changed and does not have to be restored it to its original state.
