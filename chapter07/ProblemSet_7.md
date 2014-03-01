@@ -14,3 +14,6 @@ Let h1 and h2 be the heads of lists L1 and L2, respectively. Assume that L1 and 
 
 ###Problem 7.6
 Write a function that takes a singly linked list L, and reorders the elements of L so that the new list represents even-odd(L). Your function should use O(1) additional storage. The only field you can change in a node is next.
+
+###Problem 7.7
+Let v be a node in a singly linked list L. Node v is not the tail; delete it in O(1) time.
