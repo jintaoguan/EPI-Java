@@ -9,3 +9,8 @@ Write a function that takes a pointer to an arbitrary node in a sorted circular 
 
 ###Problem 7.4
 Let h1 and h2 be the heads of lists L1 and L2, respectively. Assume that L1 and L2 are well-formed, that is each consists of a finite sequence of nodes. (In particular, neither list has a cucle.) How would you determine if there exists a node r reachable from both h1 and h2 by following the next fields? If such a node exists, find the node that appears earliest when traversing the lists. You are constrained to use no more than constant storage.
+
+###Problem 7.5 Undone
+
+###Problem 7.6
+Write a function that takes a singly linked list L, and reorders the elements of L so that the new list represents even-odd(L). Your function should use O(1) additional storage. The only field you can change in a node is next.
