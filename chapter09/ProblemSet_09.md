@@ -10,3 +10,6 @@ Write a function that takes as input the root of a binary tree and returns true 
 
 ###Problem 9.5
 Let T be the root of a binary tree in which nodes have an explicit parent field. Design an iterative algorithm that enumerate the nodes inorder and uses O(1) additional space. Your algorithm cannot modify the tree.
+
+###Problem 9.6
+Design an algorithm that takes a node n in a binary tree, and returns its successor, Assume that each node has a parent field; the parent field of root is null.
