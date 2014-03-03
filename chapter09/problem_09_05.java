@@ -64,10 +64,31 @@ public class problem_09_05 {
     }
 
     // iterative method
-    public void preorder_traversal_parent() {
+    public void preorder_traversal_parent(TreeNode root, ArrayList<Integer> ans) {
+        if(root == null) return;
+        TreeNode cur = root;
+        TreeNode prev = null;
+        TreeNode next = null;
+
+        while( cur != null ) {
+            if( prev == null || prev.left == cur || prev.right == cur ) {
+                ans.add(cur.data);
+                if( cur.left != null ) {
+                    next = cur.left;
+                } else if( cur.left == null ) {
+                    next = ( cur.right == null ? cur.parent : cur.right );
+                }
+            } else if( cur.left == prev ) {
+                next = ( cur.right == null ? cur.parent : cur.right );
+            } else if( cur.right == prev ) {
+                next = cur.parent;
+            }
+            prev = cur;
+            cur = next;
+        }
     }
 
-    public void postorder_traversal_parent() {
+    public void postorder_traversal_parent(TreeNode root, ArrayList<Integer> ans) {
     }
 
 
@@ -92,11 +113,11 @@ public class problem_09_05 {
         t7.addLeftChild(t8);
         // traverse using recursive method
         ArrayList<Integer> ans1 = new ArrayList<Integer>();
-        solutions.inorder_traversal(t1, ans1);
+        solutions.preorder_traversal(t1, ans1);
         System.out.println(ans1);
         // traverse using iterative method
         ArrayList<Integer> ans2 = new ArrayList<Integer>();
-        solutions.inorder_traversal_parent(t1, ans2);
+        solutions.preorder_traversal_parent(t1, ans2);
         System.out.println(ans2);
 
     }
