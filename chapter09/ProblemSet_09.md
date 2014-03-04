@@ -13,3 +13,6 @@ Let T be the root of a binary tree in which nodes have an explicit parent field.
 
 ###Problem 9.6
 Design an algorithm that takes a node n in a binary tree, and returns its successor, Assume that each node has a parent field; the parent field of root is null.
+
+###Problem 9.10
+Given a binary tree, write a function which forms a linked list from the leaves of the binary tree, The leaves should appear in left-to-right order.
