@@ -24,7 +24,7 @@ public class problem_09_11 {
         else if( root.left == null && root.right == null )
             ans.add(root.data);
         left_boundary_b_tree( root.left, is_boundary, ans );
-        right_boundary_b_tree( root.right, is_boundary && (root.left == null), ans );
+        left_boundary_b_tree( root.right, is_boundary && (root.left == null), ans );
     }
 
     public void right_boundary_b_tree(TreeNode root, boolean is_boundary, ArrayList<Integer> ans) {
