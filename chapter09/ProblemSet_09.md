@@ -30,4 +30,4 @@ Design an efficient algorithm for computing the LCA of nodes a and b in binary t
 Given two nodes in a binary tree T, design an algorithm that computes their LCA. Assume that each node has a parent pointer. The tree has n nodes and height h. Your algorithm should run in O(1) space and O(h) time.
 
 ###Problem 9.14
-Design an algorithm for computing the LCA in a binary
+Design an algorithm for computing the LCA of a and b that has time complexity O( max(d(a) - d(l), d(b) - d(l)) ). What is the worst-case time and space complexity of your algorithm
