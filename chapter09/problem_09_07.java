@@ -1,3 +1,8 @@
+// Problem 9.7
+// Design a function that efficiently computes the k-th node appearing
+// in an inorder traversal. Specifically, your function should take as input a binary tree T
+// and an integer K. Each node has a size field, which is the number of nodes in the subtree
+// rooted at that node. What is the time complexity of your function?
 
 public class problem_09_07 {
 
