@@ -4,7 +4,7 @@
 // by elements equal to A[i], followed by elements greater than A[i]. Your algorithm
 // should have O(1) space complexity and O(|A|) time complexity.
 
-public class Solution {
+public class problem_06_01 {
 
     public void dutch_flag_partition(int[] A, int index) {
         if (index < 0 || index >= A.length)
