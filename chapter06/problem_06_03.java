@@ -4,7 +4,7 @@
 // complete the journey. The robot begins with a fully charged battery.
 
 
-public class Solution {
+public class problem_06_03 {
     
     public int find_battery_capacity(int[] A) {
         if( A.length <= 1 ) return 0; 
@@ -17,4 +17,5 @@ public class Solution {
             minHeight = Math.min( A[i], minHeight );
         }
     }
+    return maxDiff;
 }
