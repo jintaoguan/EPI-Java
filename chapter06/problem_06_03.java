@@ -16,6 +16,6 @@ public class problem_06_03 {
             // update min height
             minHeight = Math.min( A[i], minHeight );
         }
+        return maxDiff;
     }
-    return maxDiff;
 }
