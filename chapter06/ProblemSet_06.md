@@ -12,3 +12,9 @@ For each of the following, A is an integer array of length n
 (1) Compute the maximum value of ( A[j0] - A[i0] ) + ( A[j1] - A[i1] ), subject to i0 < j0 < i1 < j1.
 (2) Compute the maximum value of ( A[j0] - A[i0] ) + ( A[j1] - A[i1] ) + ... + ( A[jk-1] - A[ik-1] ), subject to i0 < j0 < i1 < j1 < ... < jk-1 < ik-1
 (3) Repeat (2) when k can be chosen to be any value from 0 to n/2
+
+###Problem 6.6
+Design and implement an algorithm that takes as input an array A of n elements, and returns the beginning and ending indices of a longest increasing subarray of A.
+
+###Problem 6.10
+Given an array of n elements and a permutation TT, compute TT(A) using only constant additional storage. Use A itself to store the result.
