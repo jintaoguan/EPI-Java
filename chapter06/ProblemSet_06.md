@@ -18,3 +18,7 @@ Design and implement an algorithm that takes as input an array A of n elements, 
 
 ###Problem 6.10
 Given an array of n elements and a permutation TT, compute TT(A) using only constant additional storage. Use A itself to store the result.
+
+###Problem 6.12
+Given a permutation p represented as a vector, return the vector corresponding to the previous permutation of p under lexicographic ordering.
+
