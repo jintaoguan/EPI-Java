@@ -66,6 +66,7 @@ public class problem_06_04 {
         return dp[k][A.length];
     }
 
+    // ERROR 
     // another format of solution for problem (2)
     public int find_max_k_pairs2( int[] A, int k ) {
 
@@ -111,8 +112,7 @@ public class problem_06_04 {
         int[] A = new int[]{ 1, -2, 2, 0, 3, 1, 2, 3 };
         System.out.println( solutions.find_max_two_pairs(A) );
         System.out.println( solutions.find_max_k_pairs(A,3) );
-        System.out.println( solutions.find_max_any_pairs(A) );
-        //System.out.println( solutions.find_sum_k_pairs2(A,3) );
+        System.out.println( solutions.find_sum_k_pairs2(A,3) );
     }
 
 }
