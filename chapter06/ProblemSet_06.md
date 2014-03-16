@@ -22,3 +22,5 @@ Given an array of n elements and a permutation TT, compute TT(A) using only cons
 ###Problem 6.12
 Given a permutation p represented as a vector, return the vector corresponding to the previous permutation of p under lexicographic ordering.
 
+###Problem 6.13
+Design a O(n) algorithm for rotating an array A of n elements to the right by i positions. You are allowed O(1) additional storage.
