@@ -33,3 +33,6 @@ Implement a function which takes a 2D array A ad prints A in spiral order.
 
 ###Problem 6.16
 Implement a routine that takes a n*m Boolean array A together with an entry (x,y) and flips the color of the region assiciated with (x,y).
+
+###Problem 6.17
+Design an algorithm that rotate a n*n 2D array by 90 degrees clock-wise. Assume that n = 2^k for some positive integer k. What is the time complexity of your algorithm ?
