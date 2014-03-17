@@ -39,3 +39,9 @@ Design an algorithm that rotate a n*n 2D array by 90 degrees clock-wise. Assume 
 
 ###Problem 6.18
 Implement run-length encoding and decoding function. Assume the string to be encoded consists of letters of the alphabet, with no digits, and the string to be decoded is a valid encoding.
+
+###Problem 6.19
+Implement a function for reversing the words in a string. Your function should use O(1) space.
+
+###Problem 6.20
+Given two strings s(the "search" string) and t(the "text"), find the first occurrence of s in t.
