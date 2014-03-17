@@ -24,3 +24,6 @@ Given a permutation p represented as a vector, return the vector corresponding t
 
 ###Problem 6.13
 Design a O(n) algorithm for rotating an array A of n elements to the right by i positions. You are allowed O(1) additional storage.
+
+###Problem 6.14
+Check whether a 9*9 2D array representing a partially completed Sudoku is valid. Specially, check that no row, column, and 3*3 2D subarray contains duplicates. A 0-value in the 2D array indicates that entry is blank; every other entry is in [1,9].
