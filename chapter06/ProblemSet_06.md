@@ -16,6 +16,9 @@ For each of the following, A is an integer array of length n
 ###Problem 6.6
 Design and implement an algorithm that takes as input an array A of n elements, and returns the beginning and ending indices of a longest increasing subarray of A.
 
+###Problem 6.9
+Write a function that takes two strings representing integers, and returns an integer representing their product.
+
 ###Problem 6.10
 Given an array of n elements and a permutation TT, compute TT(A) using only constant additional storage. Use A itself to store the result.
 
