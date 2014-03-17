@@ -30,3 +30,6 @@ Check whether a 9*9 2D array representing a partially completed Sudoku is valid.
 
 ###Problem 6.15
 Implement a function which takes a 2D array A ad prints A in spiral order.
+
+###Problem 6.16
+Implement a routine that takes a n*m Boolean array A together with an entry (x,y) and flips the color of the region assiciated with (x,y).
