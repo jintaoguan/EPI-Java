@@ -7,7 +7,7 @@ public class problem_06_17 {
 
     // 1.iterative solution
     public void rotate_matrix(int[][] A) {
-        for( int i = 0; i < A.length; ++i ) {
+        for( int i = 0; i < A.length / 2; ++i ) {
             for( int j = i; j < A.length - i - 1; ++j ) {
                 int tmp = A[i][j];
                 A[i][j] = A[A.length-1-j][i];
