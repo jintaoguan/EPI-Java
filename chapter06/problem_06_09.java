@@ -24,11 +24,6 @@ public class problem_06_09 {
                 res[i+j+1] = res[i+j+1] + n1[i] * n2[j];
             }
         }
-
-        for( int i = 0; i < res.length; ++i )
-            System.out.print(res[i] + " " );
-        System.out.println();
-
         // convert back to string
         StringBuilder sb = new StringBuilder();
         for( int k = l1 + l2 - 1; k >= 0; --k ) {
@@ -36,7 +31,6 @@ public class problem_06_09 {
             if( k > 0 )
                 res[k-1] = res[k-1] + res[k] / 10;
         }
-        System.out.println(sb.toString());
         int count = sb.charAt(sb.length()-1) == '0' ? 1 : 0;
         String s = sb.reverse().substring(count, sb.length());
         return s.isEmpty() ? "0" : s;
@@ -44,7 +38,7 @@ public class problem_06_09 {
 
     public static void main(String[] argv) {
         problem_06_09 solutions = new problem_06_09();
-        String ans = solutions.multiply("29","21");
+        String ans = solutions.multiply("1","1");
         System.out.println(ans);
     }
 
